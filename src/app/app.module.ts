@@ -7,19 +7,25 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider';
 import {MatCardModule} from '@angular/material/card';
-import { TestComponent } from './test/test.component';
+import {MatIconModule} from '@angular/material/icon';
+import {CardComponent} from './cardTitled/card.component';
+import {CardUComponent} from './cardUntitled/cardU.component';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
+    CardComponent,
+    CardUComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
