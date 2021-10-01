@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, AfterViewInit, Inject } from '@angular/core';
+import { Router } from '@angular/router';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-electron';
+
+  link: string ="";
+
+  constructor(@Inject(DOCUMENT) private document: Document) {
+    
+  }
+  
+  receiveLink($event: string) {
+    this.link = $event;
+  }
+
+  goToUrl(link: string | undefined) {
+    window.open(
+      link,
+      '_blank'
+    );
+  }
 }
