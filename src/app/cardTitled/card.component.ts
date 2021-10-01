@@ -22,7 +22,7 @@ export class CardComponent implements OnInit {
   constructor(@Inject(DOCUMENT) private document: Document) {
     this.name = "";
     this.description = "";
-    this.img = 'assets/img/blank.png';
+    this.img = "assets/img/blank.png";
     this.allLinks = [];
     this.allNames = [];
     this.setLink = "";

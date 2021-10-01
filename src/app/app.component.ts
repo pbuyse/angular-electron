@@ -15,8 +15,15 @@ export class AppComponent {
   constructor(@Inject(DOCUMENT) private document: Document) {
     
   }
-
+  
   receiveLink($event: string) {
     this.link = $event;
+  }
+
+  goToUrl(link: string | undefined) {
+    window.open(
+      link,
+      '_blank'
+    );
   }
 }

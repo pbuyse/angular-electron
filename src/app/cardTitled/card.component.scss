@@ -339,6 +339,19 @@
     }
   }
 
+  .titleCustom {
+    color: #4BDBC3;
+    padding-left: 10px;
+    font-family: 'Segoe';
+    font-size: large;
+  }
+
+
+
+
+
+
+
 
 
 
@@ -353,8 +366,10 @@
     // padding: 16px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     // transition: all 0.2s ease-in-out;
     line-height: 24px;
   }
+
+
