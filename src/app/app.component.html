@@ -17,7 +17,7 @@
 
 <div class="navbar">
   <!--<button mat-button style="margin: 4px 5px 4px 5px; border: none; font-size: 20px; font-family: 'TextaMedium';" (click)="goToUrl('https://jfr.radiologie.fr/')">JOURNEE FRANCOPHONES DE RADIOLOGIE</button>-->
-  <button mat-button style="margin: 4px 5px 4px 5px; border: none; font-size: 20px; font-family: 'TextaMedium';" (click)="goToUrl('https://www.google.fr/')">FORMULAIRE</button>
+  <button mat-button style="margin: 4px 5px 4px 5px; border: none; font-size: 20px; font-family: 'TextaMedium';" (click)="goToUrl('https://forms.office.com/r/kyZKd5wb1k')">FORMULAIRE</button>
   <button mat-button style="margin: 4px 5px 4px 5px; border: none; font-size: 20px; font-family: 'TextaMedium';" (click)="goToUrl('https://www.google.fr/')">CALENDRIER</button>
 </div>
 
@@ -32,8 +32,8 @@
         name="TéléRadiologie 5" 
         description="Solution de Téléradiologie permettant une collaboration à distance entre des radiologues expérimentés " 
         img="assets/img/test.png" 
-        [infoLink]='["https://www.google.com/"]' 
-        [allNames]='["Accès Plannification", "Accès Télé-Radiologue", "Accès Requérant v5", "Accès Requérant v6"]' 
+        [infoLink]='["https://www.nehs-digital.com/offre/telemedecine/teleradiologie/"]' 
+        [allNames]='["Accès Plannification", "Accès Télé-Radiologue", "Accès Requérant 1", "Accès Requérant 2"]' 
         [allLinks]='["https://connect-tlr-demo.nehs-digital.com", "https://teleradio-demo.nehs-digital.com", "https://requerant-tlr-demo.nehs-digital.com" ,"https://requerant-tlr-beta.nehs-digital.com"]' 
         (linkEvent)="receiveLink($event)">
       </app-card>
@@ -41,78 +41,74 @@
       <app-card
         name="TéléRadiologie 6"  
         description="Solution de Téléradiologie permettant une collaboration à distance entre des radiologues expérimentés " 
-        img="assets/img/jfr.png" 
-        [infoLink]='["https://www.google.com/"]' 
-        [allNames]='["Accès Plannification", "Accès Télé-Radiologue", "Accès Requérant"]' 
-        [allLinks]='["https://connect-tlr-demo.nehs-digital.com", "https://teleradio-demo.nehs-digital.com", "https://requerant-tlr-demo.nehs-digital.com"]' 
+        img="assets/img/test.png" 
+        [infoLink]='["https://www.nehs-digital.com/offre/telemedecine/teleradiologie/"]' 
+        [allNames]='["Accès Plannification", "Accès Télé-Radiologue", "Accès Requérant 1", "Accès Requérant 2"]' 
+        [allLinks]='["https://connect-recette.nd.care/fr/login", "https://login-recette.nd.care/portail/", "https://nexus-ch1-recette.nd.care/","https://nexus-ch2-recette.nd.care/"]' 
         (linkEvent)="receiveLink($event)">
       </app-card>
 
       <app-card
         name="GxD5 PACS" 
         description="Outil de gestion du stockage, de l'archivage de données, de la mise en réseau et de la diffusion de la production d'images" 
-        img="assets/img/test.png" 
-        [infoLink]='["https://www.google.com/"]' 
+        img="assets/img/LogoGXD5.svg" 
+        [infoLink]='["https://www.nehs-digital.com/offre/imagerie-medicale/systeme-dinformation/gxd5-pacs/"]' 
         [allNames]='["Accès Professionnel", "Accès Patient"]' 
         [allLinks]='["https://gxd5pacs-pro-demo.nehs-digital.com", "https://gxd5pacs-patient-demo.nehs-digital.com"]' 
         (linkEvent)="receiveLink($event)">
       </app-card>
     </div>
-    
     <div class="row">
-      <app-card
-        name="GxD5 PACS" 
-        description="Outil de gestion du stockage, de l'archivage de données, de la mise en réseau et de la diffusion de la production d'images" 
-        img="assets/img/test.png" 
-        [infoLink]='["https://www.google.com/"]' 
-        [allNames]='["Accès Professionnel", "Accès Patient"]' 
-        [allLinks]='["https://gxd5pacs-pro-demo.nehs-digital.com", "https://gxd5pacs-patient-demo.nehs-digital.com"]' 
-        (linkEvent)="receiveLink($event)">
-      </app-card>
-
-      <app-card name="GxD5 RIS" 
+      <app-card name="GxD5 RIS 2.0" 
         description="Solution de système d'information pour piloter, planifier et organiser l'activité d'imagerie médicale" 
-        img="assets/img/test.png" 
-        [infoLink]='["https://www.google.com/"]'
-        [allLinks]='["https://www.nehs-digital.com/offre/imagerie-medicale/systeme-dinformation/gxd5-ris/"]'>
+        img="assets/img/LogoGXD5.svg"
+        [infoLink]='["https://www.nehs-digital.com/offre/imagerie-medicale/systeme-dinformation/gxd5-ris/"]'
+        [allLinks]='[""]'>
       </app-card>
 
       <app-card name="GxD5 Diagnostics" 
         description="Station diagnostique multi-modalités d'outils avancés d'analyse et de mesure sur l'examen actuel et sur toute l'antériorité" 
-        img="assets/img/test.png"
-        [infoLink]='["https://www.google.com/"]'
-        [allLinks]='["https://www.nehs-digital.com/offre/imagerie-medicale/systeme-dinformation/gxd5-diagnostics/"]'>
+        img="assets/img/LogoGXD5.svg"
+        [infoLink]='["https://www.nehs-digital.com/offre/imagerie-medicale/systeme-dinformation/gxd5-diagnostics/"]'
+        [allLinks]='[""]'>
       </app-card>
+
+      <app-card name="GxD5 Uniview III" 
+      description="Station diagnostique multi-modalités d'outils avancés d'analyse et de mesure sur l'examen actuel et sur toute l'antériorité" 
+      img="assets/img/LogoGXD5.svg"
+      [infoLink]='["https://www.nehs-digital.com/offre/imagerie-medicale/systeme-dinformation/gxd5-diagnostics/"]'
+      [allLinks]='[""]'>
+    </app-card>
     </div>
 
     <div class="row">
-      <app-card name="GxD5 Uniview III" 
-        description="Station diagnostique multi-modalités d'outils avancés d'analyse et de mesure sur l'examen actuel et sur toute l'antériorité" 
+      <app-card name="IDeal Broker" 
+        description="Logiciel d'interface entre les modalités et d'autres outils d'imagerie comme le RIS et le PACS" 
         img="assets/img/test.png"
-        [infoLink]='["https://www.google.com/"]'
-        [allLinks]='["https://www.nehs-digital.com/offre/imagerie-medicale/systeme-dinformation/gxd5-diagnostics/"]'>
-      </app-card>
+        [infoLink]='["https://www.nehs-digital.com/offre/imagerie-medicale/print-diffusion/webdiffusion/"]'
+        [allLinks]='["https://idbroker-demo.nehs-digital.com"]'>
+      </app-card> 
 
       <app-card name="PRI" 
         description="Solution d'impression d'examens médicaux sous forme de livrets patients au format DICOM" 
         img="assets/img/test.png"
-        [infoLink]='["https://www.google.com/"]'
+        [infoLink]='["https://www.nehs-digital.com/offre/imagerie-medicale/print-diffusion/solution-dimpression-pri/"]'
         [allLinks]='["https://pri-demo.nehs-digital.com"]'>
       </app-card>
 
       <app-card name="MARS" 
         description="Solution de gravure automatique de CD/DVD d'imagerie médicale " 
         img="assets/img/test.png"
-        [infoLink]='["https://www.google.com/"]'
+        [infoLink]='["https://www.nehs-digital.com/offre/imagerie-medicale/print-diffusion/solution-de-gravure-mars/"]'
         [allLinks]='["https://mars-demo.nehs-digital.com"]'>
       </app-card>
     </div>
 
     <div class="row">
-      <app-card name="KELDOC" 
+      <app-card name="KelDoc" 
         description="Logiciel de prise de rendez-vous en ligne" 
         img="assets/img/test.png"
-        [infoLink]='[]'
+        [infoLink]='["https://www.nehs-digital.com/offre/production-coordination-des-soins/keldoc/"]'
         [allLinks]='["https://www.keldoc.com"]'>
       </app-card>
     </div>
