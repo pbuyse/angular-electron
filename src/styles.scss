@@ -1,20 +1,99 @@
 /* You can add global styles to this file, and also import other style files */
 
-
-.mat-typography {
-    height: 100%;
-    background-image: url('assets/img/JFR_back1.svg');
-    background-size: cover;
-}
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "SegoeUIregular", "TextaRegular"}
 
 .bg {
     /* The image used */
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+    background-image: url('assets/img/JFR_back6b.svg');
     /* Full height */
-    height: 100%;
+    height: auto;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto auto;
+  }
+
+  @font-face {
+    font-family: "SegoeUIregular";
+    src: local("SegoeUIregular"), url(./assets/fonts/Segoe-UI-Fonts/segoeui.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "SegoeUIb";
+    src: local("SegoeUIb"), url(./assets/fonts/Segoe-UI-Fonts/segoeuib.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "SegoeUIi";
+    src: local("SegoeUIi"), url(./assets/fonts/Segoe-UI-Fonts/segoeuii.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "SegoeUIl";
+    src: local("SegoeUIl"), url(./assets/fonts/Segoe-UI-Fonts/segoeuil.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "SegoeUIsl";
+    src: local("SegoeUIsl"), url(./assets/fonts/Segoe-UI-Fonts/segoeuisl.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "SegoeUIz";
+    src: local("SegoeUIz"), url(./assets/fonts/Segoe-UI-Fonts/segoeuiz.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaBlackItalic";
+    src: local("TextaBlackItalic"), url(./assets/fonts/Texta-Fonts/TextaBlackItalic.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaBlack";
+    src: local("TextaBlack"), url(./assets/fonts/Texta-Fonts/TextaBlack.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaBold";
+    src: local("TextaBold"), url(./assets/fonts/Texta-Fonts/TextaBold.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaBoldItalic";
+    src: local("TextaBoldItalic"), url(./assets/fonts/Texta-Fonts/TextaBoldItalic.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaBookItalic";
+    src: local("TextaBookItalic"), url(./assets/fonts/Texta-Fonts/TextaBookItalic.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaHeavy";
+    src: local("TextaHeavy"), url(./assets/fonts/Texta-Fonts/TextaHeavy.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaHeavyItalic";
+    src: local("TextaHeavyItalic"), url(./assets/fonts/Texta-Fonts/TextaHeavyItalic.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaItalic";
+    src: local("TextaItalic"), url(./assets/fonts/Texta-Fonts/TextaItalic.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaLight";
+    src: local("TextaLight"), url(./assets/fonts/Texta-Fonts/TextaLight.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaLightItalic";
+    src: local("TextaLightItalic"), url(./assets/fonts/Texta-Fonts/TextaLightItalic.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaMedium";
+    src: local("TextaMedium"), url(./assets/fonts/Texta-Fonts/TextaMedium.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaMediumItalic";
+    src: local("TextaMediumItalic"), url(./assets/fonts/Texta-Fonts/TextaMediumItalic.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaRegular";
+    src: local("TextaRegular"), url(./assets/fonts/Texta-Fonts/TextaRegular.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaThin";
+    src: local("TextaThin"), url(./assets/fonts/Texta-Fonts/TextaThin.otf) format("truetype");
+  }
+  @font-face {
+    font-family: "TextaThinItalic";
+    src: local("TextaThinItalic"), url(./assets/fonts/Texta-Fonts/TextaThinItalic.otf) format("truetype");
   }
