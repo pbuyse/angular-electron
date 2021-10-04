@@ -1,0 +1,31 @@
+
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+
+<div *ngIf="allLinks.length > 1" class="card">
+    <a class="header" target="_blank" rel="noopener">
+      <span class="titleCustom">{{name}}</span>
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      <a *ngIf="infoLink.length == 1" href={{infoLink}} target="_blank" class="material-icons-outlined">info</a>
+    </a>
+    <p style="padding-top: 15px">{{description}}</p>
+    
+    <p style="padding: 8px 0 8px 0">Choisir un rôle de démo:</p>
+    <button mat-stroked-button style="margin: 4px 5px 4px 0px;" (click)="goToUrl(link)" *ngFor="let link of allLinks; let i = index">{{allNames[i]}}</button>
+  
+    <img src={{img}} class="bckImg">
+</div>
+
+<a *ngIf="allLinks.length == 1" href=allLinks[0] target="_blank">
+  <div class="card">
+    <a class="header" target="_blank" rel="noopener">
+      <span class="titleCustom">{{name}}</span>
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      <a *ngIf="infoLink.length == 1" href={{infoLink}} target="_blank" class="material-icons-outlined">info</a>
+    </a>
+    <p style="padding-top: 15px">{{description}}</p>
+    
+    <img src={{img}} class="bckImg">
+  </div>
+</a>
+

@@ -17,15 +17,15 @@ export class CardComponent implements OnInit {
   @Input() allLinks: string[];
   @Input() allNames: string[];
 
-  @Input() setLink: string;
+  @Input() infoLink: string[];
 
   constructor(@Inject(DOCUMENT) private document: Document) {
     this.name = "";
     this.description = "";
-    this.img = "assets/img/blank.png";
+    this.img = "";
     this.allLinks = [];
     this.allNames = [];
-    this.setLink = "";
+    this.infoLink = [];
    }
 
   ngOnInit(): void {
@@ -41,5 +41,4 @@ export class CardComponent implements OnInit {
       '_blank'
     );
   }
-
 }

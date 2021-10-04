@@ -8,15 +8,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
-import {CardComponent} from './cardTitled/card.component';
+import {CardTComponent} from './cardTitled/cardTitled.component';
 import {CardUComponent} from './cardUntitled/cardU.component';
+import {CardComponent} from './card/card.component';
 import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent,
-    CardUComponent
+    CardTComponent,
+    CardUComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
